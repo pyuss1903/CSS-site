@@ -1,0 +1,165 @@
+/********************TAG SELECTOR*******************************/
+body{
+    margin: 0;
+    /* color: red; */
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    margin-top: 50px auto 0 auto;
+    color: #66bfbf;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.2rem;
+    /* line-height: 2; */
+}
+
+h2{
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+}
+
+hr{
+    width: 10%;
+    text-align: center;
+    border-style: none;
+    border-top-style: dotted;
+    height: 0px;
+    border-width: 10px;
+    
+    color: #eaf6f6;
+}
+
+a{
+    color: #11999e;
+    text-decoration: none;
+}
+
+p{
+    color: #354a46;
+    line-height: 2;
+}
+
+
+
+/************************CLASS SELECTOR*******************************/
+.skills{
+    margin-top: 100px;
+}
+
+.contact-me{
+    margin-top: 100px;
+}
+
+.Top-Container{
+    background-color: #eaf6f6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.profile{
+    width: 30%;
+    margin: 100px auto 100px auto;
+    text-align: center; 
+    color: #40514e;
+}
+
+.pro{
+    text-decoration: underline;
+    font-family: 'Sacramento', cursive;
+    font-size: 65px;
+}
+
+.last-contact-me{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 120px auto;
+    text-align: left;
+    line-height: 2;
+    /* right: auto; */
+}
+
+.bottom-container{
+    margin-top: 80px;
+    padding-bottom: 20px;
+    background-color: #66bfbf;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.web-d{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 500px;
+    top: 50px;
+}
+
+a:hover{
+    color: #eaf6f6;
+}
+
+.footer-link{
+    display: inline-block;
+    margin: 30px 20px 30px 20px;
+    width: 10%;
+}
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+/* ***************************************ID Selector ***********************/
+#dsa-i{
+    float: right;
+    margin-left: 30 px;
+}
